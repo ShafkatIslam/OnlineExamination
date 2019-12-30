@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/welcome"
+    tools:context=".Examination.WrittenExaminationActivity">
+
+    <Button
+        android:id="@+id/get_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect2"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:text="Pick images(Default)"
+        />
+
+
+
+    <Button
+        android:id="@+id/get_images2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect3"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:text="Pick images(Custom)" />
+
+
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/hori_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:foregroundGravity="left"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/selected_photos_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:animateLayoutChanges="true"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <!-- images will be added dynamicall to this layout -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/uploadId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect4"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:text="Convert"
+        />
+
+    <Button
+        android:id="@+id/selectId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect5"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:text="Select"
+        />
+
+
+    <Button
+        android:id="@+id/loadId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect6"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:text="Upload"
+        />
+
+    <TextView
+        android:id="@+id/textViewFilePath"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff22"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

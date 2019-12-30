@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    android:gravity="center"
+    tools:context=".Examination.ExaminationActivity">
+
+    <Button
+        android:id="@+id/btn_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect2"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Score"
+        android:textColor="#ffffff"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/btn_mcqexam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect3"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="MCQ"
+        android:textColor="#ffffff"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/btn_writtenexam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect4"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Written"
+        android:textColor="#ffffff"
+        android:textSize="19dp" />
+
+
+</LinearLayout>

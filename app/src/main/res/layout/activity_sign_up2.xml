@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <Button
+        android:id="@+id/teacher"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#2087e7"
+        android:layout_margin="40dp"
+        android:text="Sign Up As a Teacher"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#977bd7"
+        android:text="Sign Up As a Student"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    tools:context=".Evaluated_Answer_Script.Evaluated_Answer_Script">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Answer Script"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ff22"
+        android:gravity="center"
+        android:background="#000000"/>
+
+    <ListView
+        android:id="@+id/answerListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:divider="#181717"
+        android:listSelector="#6896af"
+        />
+
+</LinearLayout>
